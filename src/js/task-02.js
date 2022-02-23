@@ -28,4 +28,8 @@ const ingridientsItems = ingredients.map((el) => {
 });
 const allIngredients = document.querySelector("#ingredients");
 allIngredients.append(...ingridientsItems);
+allIngredients.style.fontSize = "26px";
+allIngredients.style.color = "cornflowerblue";
+allIngredients.style.textShadow =
+  "-1px 0px black, 0px -1px black, 1px 0px black, 0px 1px black, -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black";
 console.log(allIngredients);
