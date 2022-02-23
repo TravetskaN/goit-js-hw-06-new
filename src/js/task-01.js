@@ -6,8 +6,7 @@
 const numberAllCategories = document.querySelectorAll(".item");
 console.log(`Number of categories: ${numberAllCategories.length}`);
 
-const oneCategory = [...numberAllCategories];
-oneCategory.forEach((el) => {
+const oneCategory = numberAllCategories.forEach((el) => {
   console.log(
     `Category: ${el.querySelector("h2").textContent} 
 Elements: ${el.querySelectorAll("li").length}`
